@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+   
+}
+
+.perfil {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    gap: 10vw; /* Espaciado entre imagen y contenido */
+    margin: 10vh auto; /* Centra el contenedor en la página */
+}
+
+.perfil-imagen {
+    width: 30vw; /* Puedes modificar el ancho */
+    height: 60vh; /* Puedes modificar el alto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil-imagen img {
+    width: 30vw;
+    height: 60vh;
+    object-fit: cover;
+    border: 5px solid blue;
+    border-radius: 10px;
+}
+
+.perfil-contenido {
+    width: 50vw; /* Puedes modificar el ancho */
+    height: 60vh; /* Puedes modificar el alto */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Centra el contenido dentro del div */
+    align-items: flex-start; /* Alinea el texto al centro */
+    border: 5px solid black; /* Corregí la sintaxis del border */
+    padding: 10px;
+}
+
+.perfil-contenido h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.perfil-contenido p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
