@@ -9,7 +9,8 @@
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
     gap: 10vw; /* Espaciado entre imagen y contenido */
-    margin: 10vh auto; /* Centra el contenedor en la página */
+    margin: 12vh ; /* Centra el contenedor en la página */
+    margin-bottom: 1vh;
 }
 
 .perfil-imagen {
@@ -18,14 +19,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 3px solid orange;
+    border-radius: 30px;
+    background-color: yellow;
+    position: relative; /* CAMBIO: Se agrega position relative */
+}
+
+.contenedor_img {
+    width: 25vw; /* Puedes modificar el ancho */
+    height: 50vh; /* Puedes modificar el alto */
+    border-radius: 50%;
+    overflow: hidden; /* CAMBIO: Evita que la imagen sobresalga */
+    display: flex; /* CAMBIO: Centra la imagen dentro */
+    justify-content: center; /* CAMBIO */
+    align-items: center; /* CAMBIO */
 }
 
 .perfil-imagen img {
-    width: 30vw;
-    height: 60vh;
+    width: 100%; /* CAMBIO: Ajusta la imagen al contenedor */
+    height: 100%; /* CAMBIO */
     object-fit: cover;
-    border: 5px solid blue;
-    border-radius: 10px;
+    border-radius: 50%;
 }
 
 .perfil-contenido {
@@ -34,19 +48,35 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start; /* Centra el contenido dentro del div */
-    align-items: flex-start; /* Alinea el texto al centro */
-    border: 5px solid black; /* Corregí la sintaxis del border */
-    padding: 10px;
+    -align-items: flex-start; /* Alinea el texto al centro */
+    border: 5px solid orange; /* Corregí la sintaxis del border */
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .perfil-contenido h1 {
-    font-size: 2em;
+    font-size: 2vw;
     margin-bottom: 10px;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+}
+
+.perfil-contenido ul {
+    font-size: 1vw;
+    line-height: 1.5; 
+    padding: auto;
+    color: blue;
 }
 
 .perfil-contenido p {
-    font-size: 16px;
+    font-size: 1vw;
     line-height: 1.5;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    text-indent: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    color: blue;
 }
