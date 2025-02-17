@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
  /* ESTILOS SECCION INFORMACIÓN PERSONAL */
@@ -51,7 +51,7 @@
     flex-direction: column;
     justify-content: flex-start; /* Centra el contenido dentro del div */
     -align-items: flex-start; /* Alinea el texto al centro */
-    border: 5px solid orange; /* Corregí la sintaxis del border */
+    border: 3px solid orange; /* Corregí la sintaxis del border */
     border-radius: 20px;
     padding: 20px;
 }
@@ -68,7 +68,7 @@
     font-size: 1vw;
     line-height: 1.5; 
     padding: auto;
-    color: blue;
+    color: #0d6efd;
 }
 
 .perfil-contenido p {
@@ -80,20 +80,21 @@
     text-indent: 20px;
     margin-top: 30px;
     padding: 10px;
-    color: blue;
+    color: #0d6efd;
 }
 
 
   /* ESTILOS SECCION DE EXPERIENCIA */
 
 #estudios {
-    margin: 0 auto; /* Centra el contenedor */
+    margin: 1vw 1vw ; /* Centra el contenedor */
     padding: 20px;
     display: flex;
     flex-direction: column;
-    -border: 5px solid red;
+   border-radius: 20px;
     background-color: whitesmoke;
-    color: blue;
+    color: #0d6efd;
+ 
 }
 
 .grupo_estudios {
@@ -108,6 +109,7 @@
     font-size: 1.5vw;
     margin-bottom: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;  /* Negrita */
    
 }
 
@@ -140,7 +142,7 @@
 .estudio button {
     display: block; /* Hace que el botón ocupe todo el ancho disponible */
     margin-top: 10px;
-    background-color: #007bff;
+    background-color: #0d6efd;
     color: white;
     padding: 8px 12px;
     border: none;
@@ -187,10 +189,9 @@ footer {
 }
 
 .footer-texto {
-    font-size: 1vw;
-    font-weight: bold;
+    font-size: 0.7vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: orange;
+    color: whitesmoke;
     margin-bottom: 20px;
 }
 
