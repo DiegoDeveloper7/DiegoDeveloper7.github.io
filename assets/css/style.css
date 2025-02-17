@@ -4,6 +4,8 @@
    
 }
 
+ /* ESTILOS SECCION INFORMACIÓN PERSONAL */
+
 .perfil {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
@@ -81,16 +83,6 @@
     color: blue;
 }
 
-/* Mis trabajos */
-
-#Mis-trabajos .image-top {
-    height: 250px;
-    background-repeat: no-repeat;
-    background-size: 30vw 30vh;
-    background-position: center;
-  }
-
-
 
   /* ESTILOS SECCION DE EXPERIENCIA */
 
@@ -111,7 +103,6 @@
     flex-wrap: wrap;
 }
 
-/* Título principal */
 .estudios-titulo {
     text-align: center; /* Centra el texto */
     font-size: 1.5vw;
@@ -120,12 +111,10 @@
    
 }
 
-/* Cada bloque de estudios */
 .estudio {
     margin-bottom: 30px; /* Espaciado entre bloques */
 }
 
-/* Títulos de cada estudio */
 .estudio h3 {
     margin-left: 5px; /* Ajusta el margen izquierdo */
     font-size: 1vw;
@@ -135,13 +124,12 @@
     font-style: italic; /* Cursiva */
 }
 
-/* Lista de detalles */
+
 .estudio ul {
     padding-left: 20px; /* Espaciado interno */
     -list-style-type: none; /* Quita los puntos de la lista */
 }
 
-/* Elementos de la lista */
 .estudio li {
     margin-bottom: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -149,7 +137,6 @@
     
 }
 
-/* Botones al final de la lista */
 .estudio button {
     display: block; /* Hace que el botón ocupe todo el ancho disponible */
     margin-top: 10px;
@@ -166,7 +153,6 @@
    
 }
 
-/* Estilo para los enlaces dentro de los botones */
 .estudio button a {
     color: white;
     text-decoration: none;
@@ -174,7 +160,53 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Hover para los botones */
 .estudio button:hover {
     background-color: #0056b3;
+}
+
+/* ESTILOS SECCIÓN PORTAFOLIO */
+
+#Mis-trabajos .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 30vw 30vh;
+    background-position: center;
+  }
+
+
+/* PROPIEDADES DEL FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.footer-texto {
+    font-size: 1vw;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
+    margin-bottom: 20px;
+}
+
+
+.footer-imagenes {
+    display: flex;
+    justify-content: space-between; /* Distribuye uniformemente */
+    width: 100%; /* Ocupa todo el ancho del viewport */
+    max-width: 800px; /* Limita el ancho en pantallas grandes */
+    gap: 10px; /* Espaciado entre imágenes */
+}
+
+.footer-imagenes img {
+    width: 70px; /* Tamaño pequeño pero visible */
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
 }
