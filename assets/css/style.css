@@ -89,3 +89,92 @@
     background-size: 30vw 30vh;
     background-position: center;
   }
+
+
+
+  /* ESTILOS SECCION DE EXPERIENCIA */
+
+#estudios {
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    -border: 5px solid red;
+    background-color: whitesmoke;
+    color: blue;
+}
+
+.grupo_estudios {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Título principal */
+.estudios-titulo {
+    text-align: center; /* Centra el texto */
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+/* Cada bloque de estudios */
+.estudio {
+    margin-bottom: 30px; /* Espaciado entre bloques */
+}
+
+/* Títulos de cada estudio */
+.estudio h3 {
+    margin-left: 5px; /* Ajusta el margen izquierdo */
+    font-size: 1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
+    font-weight: bold;  /* Negrita */
+    font-style: italic; /* Cursiva */
+}
+
+/* Lista de detalles */
+.estudio ul {
+    padding-left: 20px; /* Espaciado interno */
+    -list-style-type: none; /* Quita los puntos de la lista */
+}
+
+/* Elementos de la lista */
+.estudio li {
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1vw;
+    
+}
+
+/* Botones al final de la lista */
+.estudio button {
+    display: block; /* Hace que el botón ocupe todo el ancho disponible */
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    width: fit-content;
+    margin-left: 12vw;
+   
+}
+
+/* Estilo para los enlaces dentro de los botones */
+.estudio button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hover para los botones */
+.estudio button:hover {
+    background-color: #0056b3;
+}
