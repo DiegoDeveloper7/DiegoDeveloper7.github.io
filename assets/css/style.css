@@ -80,3 +80,12 @@
     padding: 10px;
     color: blue;
 }
+
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 30vw 30vh;
+    background-position: center;
+  }
